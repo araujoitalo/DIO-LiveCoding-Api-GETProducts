@@ -27,11 +27,16 @@ namespace APIBookstore.Controllers
             _context.SaveChanges();
 
 
-            _context.TodoProducts.Add(new Product { Id = "1", Name = "Book1", Price = 24, Quantity = 1, Category = "action", Img = "img1" });
-            _context.TodoProducts.Add(new Product { Id = "2", Name = "Book2", Price = 50, Quantity = 1, Category = "action", Img = "img2" });
-            _context.TodoProducts.Add(new Product { Id = "3", Name = "Book3", Price = 20, Quantity = 2, Category = "action", Img = "img3" });
-            _context.TodoProducts.Add(new Product { Id = "4", Name = "Book4", Price = 10, Quantity = 1, Category = "action", Img = "img1" });
-            _context.TodoProducts.Add(new Product { Id = "5", Name = "Book5", Price = 15, Quantity = 5, Category = "action", Img = "img1" });
+            _context.TodoProducts.Add(new Product { Id = "1", Name = "Book1", Price = 254, Quantity = 1, Category = "Programação", Img = "img1" });
+            _context.TodoProducts.Add(new Product { Id = "2", Name = "Book2", Price = 550, Quantity = 1, Category = "action", Img = "img2" });
+            _context.TodoProducts.Add(new Product { Id = "3", Name = "Book3", Price = 250, Quantity = 2, Category = "action", Img = "img3" });
+            _context.TodoProducts.Add(new Product { Id = "4", Name = "Book4", Price = 130, Quantity = 1, Category = "Programação", Img = "img4" });
+            _context.TodoProducts.Add(new Product { Id = "9", Name = "Book5", Price = 135, Quantity = 5, Category = "Programação", Img = "img5" });
+            _context.TodoProducts.Add(new Product { Id = "5", Name = "Book6", Price = 153, Quantity = 5, Category = "action", Img = "img6" });
+            _context.TodoProducts.Add(new Product { Id = "58", Name = "Book7", Price = 165, Quantity = 5, Category = "action", Img = "img7" });
+            _context.TodoProducts.Add(new Product { Id = "12", Name = "Book8", Price = 175, Quantity = 5, Category = "action", Img = "img8" });
+            _context.TodoProducts.Add(new Product { Id = "45", Name = "Book9", Price = 175, Quantity = 5, Category = "action", Img = "img9" });
+            _context.TodoProducts.Add(new Product { Id = "13", Name = "Book10", Price = 195, Quantity = 5, Category = "action", Img = "img10" });
 
 
 

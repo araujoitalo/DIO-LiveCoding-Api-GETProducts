@@ -5825,32 +5825,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nathalia\\.nuget\\packages\\": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nathalia\\Documents\\Códigos\\DIO\\API\\APIBookstore\\APIBookstore\\APIBookstore.csproj",
+      "projectUniqueName": "/home/automacao/Documentos/Dev/Git/DIO/DIO-LiveCoding-Api-GETProducts/APIBookstore/APIBookstore.csproj",
       "projectName": "APIBookstore",
-      "projectPath": "C:\\Users\\Nathalia\\Documents\\Códigos\\DIO\\API\\APIBookstore\\APIBookstore\\APIBookstore.csproj",
-      "packagesPath": "C:\\Users\\Nathalia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nathalia\\Documents\\Códigos\\DIO\\API\\APIBookstore\\APIBookstore\\obj\\",
+      "projectPath": "/home/automacao/Documentos/Dev/Git/DIO/DIO-LiveCoding-Api-GETProducts/APIBookstore/APIBookstore.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/home/automacao/Documentos/Dev/Git/DIO/DIO-LiveCoding-Api-GETProducts/APIBookstore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nathalia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -5862,7 +5858,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -5901,7 +5896,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.421/RuntimeIdentifierGraph.json"
       }
     }
   }
